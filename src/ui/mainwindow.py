@@ -1,3 +1,4 @@
+from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import (
     QMainWindow,
     QWidget,
@@ -15,6 +16,7 @@ class OpenVTuber_MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("OpenVTuber")
         self.resize(1280, 720)
+        self.setWindowIcon(QIcon(global_path.get_proj_abs_path("assets/icon.png")))
 
         widget = QWidget()
         self.setCentralWidget(widget)
