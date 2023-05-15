@@ -1,4 +1,11 @@
-from PySide6.QtWidgets import QMainWindow, QWidget, QGridLayout, QPushButton, QMenuBar, QMenu
+from PySide6.QtWidgets import (
+    QMainWindow,
+    QWidget,
+    QGridLayout,
+    QPushButton,
+    QMenuBar,
+    QMenu,
+)
 
 from utils import global_path
 

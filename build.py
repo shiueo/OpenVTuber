@@ -35,9 +35,9 @@ with open("config/config.json", "r") as j:
 
 build.build(
     withconsole=True,
-    path=os.path.abspath("SoDiMM.py"),
-    file_dict=["assets", "config", "videos", "videos_e"],
-    companyname="shiüo+ileeric",
+    path=os.path.abspath("openvtuber.py"),
+    file_dict=["assets", "config"],
+    companyname="shiüo",
     product_version=config["version"],
     icon=global_path.get_proj_abs_path("assets/sodimm_icon.png"),
     plugin_dict=["pyside6"],
