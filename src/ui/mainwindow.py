@@ -4,7 +4,6 @@ from PySide6.QtWidgets import (
     QWidget,
     QGridLayout,
     QPushButton,
-    QMenuBar,
     QMenu,
 )
 

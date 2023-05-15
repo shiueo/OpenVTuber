@@ -35,7 +35,7 @@ with open("config/config.json", "r") as j:
 
 build.build(
     withconsole=True,
-    path=os.path.abspath("openvtuber.py"),
+    path=os.path.abspath("OpenVTuber.py"),
     file_dict=["assets", "config"],
     companyname="shiüo",
     product_version=config["version"],
